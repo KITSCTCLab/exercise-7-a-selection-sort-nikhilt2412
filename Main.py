@@ -1,9 +1,9 @@
 from typing import List
 
 def selectionSort(array, size) -> List[int]:
-  for i in range(0, n-1):
+  for i in range(0, size-1):
     min = i
-    for j in range(i+1, n):
+    for j in range(i+1, sizee):
       if array[j]<array[min]:
         min = j
     temp = A[i]
